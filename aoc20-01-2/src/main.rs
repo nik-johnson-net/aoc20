@@ -1,7 +1,7 @@
 mod input;
 
 fn main() {
-    println!("aoc20-02");
+    println!("aoc20-01-2");
 
     for (ii, i) in input::INPUT.iter().enumerate() {
         for (ij, j) in input::INPUT[ii..].iter().enumerate() {

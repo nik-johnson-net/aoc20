@@ -3,7 +3,7 @@ mod input;
 use std::collections::HashSet;
 
 fn main() {
-    println!("aoc20-01");
+    println!("aoc20-01-1");
 
     let mut numbers = HashSet::new();
 
