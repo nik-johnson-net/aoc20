@@ -1,0 +1,9 @@
+[package]
+name = "aoc20-03-1"
+version = "0.1.0"
+authors = ["Nik Johnson <nik@nikjohnson.net>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

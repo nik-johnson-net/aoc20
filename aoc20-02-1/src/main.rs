@@ -27,10 +27,10 @@ impl<'a> Password<'a> {
     }
 
     pub fn valid(&self) -> bool {
-        let count =
-            self.password
-                .chars()
-                .fold(0, |a, c| if c == self.required_char { a + 1 } else { a });
+        let count = self
+            .password
+            .chars()
+            .fold(0, |a, c| if c == self.required_char { a + 1 } else { a });
         count >= self.range_start && count <= self.range_end
     }
 
